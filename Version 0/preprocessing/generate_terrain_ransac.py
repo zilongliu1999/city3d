@@ -5,7 +5,7 @@ from datetime import datetime
 
 # === Step 1: Set up paths ===
 script_dir = os.path.dirname(os.path.abspath(__file__))
-input_folder = os.path.join(script_dir, "..", "data", "Yuehai")
+input_folder = "../../data/Yuehai"
 output_base = os.path.join(script_dir, "output")
 
 now = datetime.now()

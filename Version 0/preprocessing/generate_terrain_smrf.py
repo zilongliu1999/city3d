@@ -11,7 +11,7 @@ import json
 script_dir = os.path.dirname(os.path.abspath(__file__))
 
 # Define input folder relative to script location
-input_folder = os.path.join(script_dir, "..", "data", "Yuehai")
+input_folder = "../../data/Yuehai"
 
 # Create dated output folder under "output/yyyy-mm-dd"
 now = datetime.now()

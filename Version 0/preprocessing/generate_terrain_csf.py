@@ -5,7 +5,7 @@ import open3d as o3d
 from datetime import datetime
 
 # === Step 1: Setup input/output paths ===
-input_folder = "../data/Yuehai"  # <-- change to your own path
+input_folder = "../../data/Yuehai"  # <-- change to your own path
 
 # Get current date and time
 now = datetime.now()
